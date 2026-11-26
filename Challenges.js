@@ -25,7 +25,7 @@ function evaluatelight(light) {
 
   if (color === "green") {
     return "Los coches pueden pasar.";
-  } else if (color === "ambar" || color === "ámbar") {
+  } else if (color === "ambar") {
     return "Los coches deben pasar con precaución.";
   } else if (color === "red") {
     return "Los coches se tienen que detener.";
@@ -34,8 +34,8 @@ function evaluatelight(light) {
   }
 }
 
-console.log(evaluatelight("verde")); // Los coches pueden pasar.
-console.log(evaluatelight("azul"));  // Color no válido...
+console.log(evaluatelight("GREEN")); 
+console.log(evaluatelight("BLUE"));  // Color no válido...
 
 
  /***------------------------- */
